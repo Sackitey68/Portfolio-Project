@@ -22,4 +22,16 @@ body {
     position: fixed;
     top: 20px;
     right: 20px;
+    color: azure;
+    background-color: #179712;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#addBtn:hover{
+    background-color: #06a086;
 }
